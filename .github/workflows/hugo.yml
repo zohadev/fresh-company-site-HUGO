@@ -61,7 +61,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: "https://zohadev.github.io/fresh-company-site-HUGO"
     runs-on: ubuntu-latest
     needs: build
     steps:
